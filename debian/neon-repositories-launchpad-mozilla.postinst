@@ -11,10 +11,12 @@ set -ex
 
 if [ -e /etc/apt/preferences.d/org-kde-neon-net-launchpad-ppa-mozillateam-pin ]; then
 	rm -f /etc/apt/preferences.d/org-kde-neon-net-launchpad-ppa-mozillateam-pin
+fi
 
 
 if [ -e /etc/apt/trusted.gpg.d/org.kde.neon.net.launchpad.ppa.mozillateam.asc ]; then
 	rm -f /etc/apt/trusted.gpg.d/org.kde.neon.net.launchpad.ppa.mozillateam.asc
+fi
 
 if [ -e /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list ]; then
 	rm -f /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list
