@@ -1,0 +1,11 @@
+neon-repositories (0.1-1lliurex) jammy; urgency=medium
+
+  * Unfix fixes
+
+ -- Juanma1980 <juanma1980@gmail.com>  Fri, 20 Oct 2023 09:38:56 +0200
+
+neon-repositories (0.1) focal; urgency=medium
+
+  * 
+
+ -- Harald Sitter <sitter@kde.org>  Thu, 26 Nov 2020 15:35:44 +0100
